@@ -1,3 +1,6 @@
+
+![clash-royale-mini-pekka](https://user-images.githubusercontent.com/107563009/200565229-9f290919-6e41-4154-87a9-99863d9ba9ef.gif)
+
 #Import Script Flask Library 
 from Flask import Flask, request
 app= Flask("Krono")
@@ -38,3 +41,5 @@ def get_store(name):
         if store["name"] == name:
             return store
     return {"message": "Store not found"}, 404
+    
+
